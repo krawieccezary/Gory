@@ -7,9 +7,9 @@ body
 #header
 {
     text-align: right;
-    border-bottom: 2px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
     padding: 5px 20px 0 0;
-    height: 150px;
+    height: 200px;
     background-image: url(img/tatry.jpg);
     background-size: cover;
 }   
@@ -21,7 +21,7 @@ span {
 
 #container
 {
-    background-color: #344343;
+    background-color: #082c4f;
     height: 100%;
     width: 960px;
     margin: auto;
@@ -38,6 +38,7 @@ span {
 
 #menu ul
 {
+    margin-top: 40px;
     height: 100%;
     width: 200px;
 }
@@ -74,7 +75,7 @@ span {
     padding: 0 0 15px 20px;
     margin: 0 auto;
     letter-spacing: 1;
-    border-left: 2px solid gainsboro;
+    border-left: 5px solid gainsboro;
 }
 
 h2
@@ -90,6 +91,7 @@ p
     text-indent: 50px;
     line-height: 20px;
     text-align: justify;
+    font-family: 
 }
 
 img
@@ -102,6 +104,7 @@ img
 {
     color: floralwhite;
     float: right;
+    margin-bottom: 50px;
 }
 
 #footer
