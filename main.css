@@ -15,7 +15,7 @@ body
 }   
 span {
     font-size: 42px;
-    margin : 20px 20px 0 0;
+    margin : 20px 30px 0 0;
     display:block;
 }
 
@@ -53,7 +53,7 @@ span {
 
 #menu ul li a
 {
-    background: dimgray;
+    background: #3b81c5;
     text-decoration: none;
     color: floralwhite ;
     display: block;
@@ -64,7 +64,7 @@ span {
 
 #menu ul li a:hover
 {
-    color: #344343;
+    color: #082c4f;
 } 
 
 #content
@@ -76,12 +76,13 @@ span {
     margin: 0 auto;
     letter-spacing: 1;
     border-left: 5px solid gainsboro;
+    color: gainsboro;
 }
 
 h2
 {
     text-align: center;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
     padding-bottom: 10px;
     margin-top: 70px;
 }
@@ -91,7 +92,7 @@ p
     text-indent: 50px;
     line-height: 20px;
     text-align: justify;
-    font-family: 
+    font-family: 'Lato';
 }
 
 img
@@ -110,4 +111,6 @@ img
 #footer
 {
     clear: both;
+    text-align: center;
+    border-top: 5px solid gainsboro;
 }
